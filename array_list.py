@@ -26,3 +26,22 @@ print( l1)
 
 
 print( type(l1))
+
+
+names = [ "atif","mazhar", "shayan" ,"talha"]
+names.sort()
+print ( names)
+
+numbers = [ 19,8,4,34,25,23,16,49]
+numbers.sort()
+
+print ( numbers)
+
+numbers.reverse()
+print ( numbers)
+
+numbers.remove(19)
+print ("9 is remove now :", numbers)
+
+
+print ( type(numbers))
