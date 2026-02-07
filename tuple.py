@@ -15,3 +15,6 @@ print("The index of Atif is: ", i)
 # length of tuple 
 print( len(a))
 
+
+b = ( 1,2,3,"atif ", "mazhar")
+print ( b)

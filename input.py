@@ -14,4 +14,3 @@ print ("The average is two numbers is :",(a + b)  /2)
 
 #Finding square of two number
 print ("The square of a and b is :", a*b)
-
