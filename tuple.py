@@ -44,8 +44,9 @@ print ( b[-1])
 
 # it will print all value from reverse side
 print ( b[-3:-1])
-''' It print empty tuple because python goes forward 
+''' It print empty tuple because python move left to right
  we are trying to start from index -1 which is last index and goes reverse
- but in python it goes forward so that is why it print empty tuple 
+ If start index comes after end index, result is empty that is why it print empty tuple 
 '''
 print( b[-1:-3])
+
