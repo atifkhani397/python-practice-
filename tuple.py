@@ -16,7 +16,7 @@ print("The index of Atif is: ", i)
 print( len(a))
 
 
-b = ( 1,2,2,3,"atif ", "mazhar")
+b = ( 1,2,2,3,"atif", "mazhar")
 print ( b)
 
 
@@ -25,3 +25,27 @@ print( index)
 
 count = b.count(2)
 print( count)
+
+# slicing on tuple 
+print ( b[2:5])
+print  ( 2 in b)
+print ( "atif" in b)
+print ( b[5])
+
+# we can use logical operator on tuple 
+print ( "mazhar" not in b)
+print ( (2 and 5) in b)
+print ( ("atif" or "shayan") in b)
+
+# print all elements of tuple
+print ( b[:])
+# it will print last value in tuple 
+print ( b[-1])
+
+# it will print all value from reverse side
+print ( b[-3:-1])
+''' It print empty tuple because python goes forward 
+ we are trying to start from index -1 which is last index and goes reverse
+ but in python it goes forward so that is why it print empty tuple 
+'''
+print( b[-1:-3])
