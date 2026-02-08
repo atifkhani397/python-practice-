@@ -16,5 +16,12 @@ print("The index of Atif is: ", i)
 print( len(a))
 
 
-b = ( 1,2,3,"atif ", "mazhar")
+b = ( 1,2,2,3,"atif ", "mazhar")
 print ( b)
+
+
+index = b.index(2)
+print( index)
+
+count = b.count(2)
+print( count)
